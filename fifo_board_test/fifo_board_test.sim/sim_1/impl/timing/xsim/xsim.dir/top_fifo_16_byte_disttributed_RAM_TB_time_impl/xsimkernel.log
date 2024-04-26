@@ -1,0 +1,7 @@
+Running: xsim.dir/top_fifo_16_byte_disttributed_RAM_TB_time_impl/xsimk.exe -simmode gui -wdb top_fifo_16_byte_disttributed_RAM_TB_time_impl.wdb -simrunnum 0 -socket 51083
+Design successfully loaded
+Design Loading Memory Usage: 7164 KB (Peak: 7164 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 9204 KB (Peak: 9204 KB)
+Simulation CPU Usage: 155 ms

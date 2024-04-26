@@ -1,0 +1,31 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 563258c82d5a41f397ab26e956092e69 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_fifo_16_byte_disttributed_RAM_TB_behav xil_defaultlib.top_fifo_16_byte_disttributed_RAM_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.empty_fifo_flip_flop [empty_fifo_flip_flop_default]
+Compiling architecture behavioral of entity xil_defaultlib.full_fifo_flip_flop [full_fifo_flip_flop_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_ctrl_fifo [inst_ctrl_fifo_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_N_bits_ascending_counter_ptr_read [inst_n_bits_ascending_counter_pt...]
+Compiling architecture behavioral of entity xil_defaultlib.Inst_N_bits_ascending_counter_ptr_write [inst_n_bits_ascending_counter_pt...]
+Compiling architecture syn of entity xil_defaultlib.dual_port_distributed_ram_async_read [dual_port_distributed_ram_async_...]
+Compiling architecture behavioral of entity xil_defaultlib.D_flip_flop_ce_pop [d_flip_flop_ce_pop_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_flip_flop_ce_push [d_flip_flop_ce_push_default]
+Compiling architecture behavioral of entity xil_defaultlib.detector_flancos_push [detector_flancos_push_default]
+Compiling architecture behavioral of entity xil_defaultlib.detector_flancos_pop [detector_flancos_pop_default]
+Compiling architecture behavioral of entity xil_defaultlib.Generador_CE_1KHz [generador_ce_1khz_default]
+Compiling architecture behavioral of entity xil_defaultlib.bin_to_7seg_anodo [bin_to_7seg_anodo_default]
+Compiling architecture behavioral of entity xil_defaultlib.Control_visualizador_dinamico_8digitos_7seg [control_visualizador_dinamico_8d...]
+Compiling architecture behavioral of entity xil_defaultlib.top_fifo_16_byte_disttributed_RAM [top_fifo_16_byte_disttributed_ra...]
+Compiling architecture behavior of entity xil_defaultlib.top_fifo_16_byte_disttributed_ra...
+Built simulation snapshot top_fifo_16_byte_disttributed_RAM_TB_behav

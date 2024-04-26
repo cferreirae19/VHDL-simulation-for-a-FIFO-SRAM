@@ -1,0 +1,30 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_pop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flip_flop_ce_pop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_push.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flip_flop_ce_push'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Decodificador_binario_a_7_segmentos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bin_to_7seg_anodo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Generador_CE_1KHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Generador_CE_1KHz'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_read.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Inst_N_bits_ascending_counter_ptr_read'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_write.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Inst_N_bits_ascending_counter_ptr_write'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Inst_ctrl_fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_pop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'detector_flancos_pop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_push.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'detector_flancos_push'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/dual_port_distributed_ram_async_read.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dual_port_distributed_ram_async_read'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/empty_fifo_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'empty_fifo_flip_flop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_fifo_16_byte_disttributed_RAM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/full_fifo_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_fifo_flip_flop'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/visualizador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_visualizador_dinamico_8digitos_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sim_1/new/testbench_fifo_16_byte_distributted_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_fifo_16_byte_disttributed_RAM_TB'

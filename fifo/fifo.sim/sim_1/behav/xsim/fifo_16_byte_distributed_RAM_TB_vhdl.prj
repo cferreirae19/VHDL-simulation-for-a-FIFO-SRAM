@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/JK_flipflop.vhd" \
+"../../../../project_1.srcs/sources_1/new/N_bits_ascending_counter.vhd" \
+"../../../../project_1.srcs/sources_1/new/fifo_16_byte_distributed_RAM.vhd" \
+"../../../../project_1.srcs/sources_1/new/inst_N_bits_ascending_counter_ptr_read.vhd" \
+"../../../../project_1.srcs/sources_1/new/inst_N_bits_ascending_counter_ptr_write.vhd" \
+"../../../../project_1.srcs/sources_1/new/inst_ctrl_fifo.vhd" \
+"../../../../project_1.srcs/sources_1/new/inst_dual_port_distributed_ram_async_read.vhd" \
+"../../../../project_1.srcs/sim_1/new/fifo_16_byte_distributed_RAM_TB.vhd" \
+
+# Do not sort compile order
+nosort

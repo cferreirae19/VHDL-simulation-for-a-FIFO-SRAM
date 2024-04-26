@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sim_1/new/testbench_fifo_16_byte_distributted_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_fifo_16_byte_disttributed_RAM_TB'

@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cferr/Desktop/project_1/project_1.sim/sim_1/impl/timing/xsim/fifo_16_byte_distributed_RAM_TB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32M_HD1
+INFO: [VRFC 10-311] analyzing module JK_flipflop
+INFO: [VRFC 10-311] analyzing module JK_flipflop_1
+INFO: [VRFC 10-311] analyzing module N_bits_ascending_counter
+INFO: [VRFC 10-311] analyzing module N_bits_ascending_counter_0
+INFO: [VRFC 10-311] analyzing module fifo_16_byte_distributed_RAM
+INFO: [VRFC 10-311] analyzing module inst_N_bits_ascending_counter_ptr_read
+INFO: [VRFC 10-311] analyzing module inst_N_bits_ascending_counter_ptr_write
+INFO: [VRFC 10-311] analyzing module inst_ctrl_fifo
+INFO: [VRFC 10-311] analyzing module inst_dual_port_distributed_ram_async_read
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,528 @@
+
+*** Running vivado
+    with args -log top_fifo_16_byte_disttributed_RAM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_fifo_16_byte_disttributed_RAM.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_fifo_16_byte_disttributed_RAM.tcl -notrace
+Command: synth_design -top top_fifo_16_byte_disttributed_RAM -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14844 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 363.422 ; gain = 101.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_fifo_16_byte_disttributed_RAM' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:15]
+INFO: [Synth 8-3491] module 'Inst_ctrl_fifo' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd:6' bound to instance 'CTRL_FIFO' of component 'Inst_ctrl_fifo' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'Inst_ctrl_fifo' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd:14]
+INFO: [Synth 8-3491] module 'empty_fifo_flip_flop' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/empty_fifo_flip_flop.vhd:4' bound to instance 'EMPTY_JK' of component 'empty_fifo_flip_flop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'empty_fifo_flip_flop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/empty_fifo_flip_flop.vhd:11]
+WARNING: [Synth 8-614] signal 'preset' is read in the process but is not in the sensitivity list [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/empty_fifo_flip_flop.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'empty_fifo_flip_flop' (1#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/empty_fifo_flip_flop.vhd:11]
+INFO: [Synth 8-3491] module 'full_fifo_flip_flop' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/full_fifo_flip_flop.vhd:4' bound to instance 'FULL_JK' of component 'full_fifo_flip_flop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'full_fifo_flip_flop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/full_fifo_flip_flop.vhd:11]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/full_fifo_flip_flop.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'full_fifo_flip_flop' (2#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/full_fifo_flip_flop.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Inst_ctrl_fifo' (3#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/ctrl_fifo_predictivo.vhd:14]
+INFO: [Synth 8-3491] module 'Inst_N_bits_ascending_counter_ptr_read' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_read.vhd:7' bound to instance 'COUNTER_PTR_READ' of component 'Inst_N_bits_ascending_counter_ptr_read' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'Inst_N_bits_ascending_counter_ptr_read' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_read.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Inst_N_bits_ascending_counter_ptr_read' (4#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_read.vhd:15]
+INFO: [Synth 8-3491] module 'Inst_N_bits_ascending_counter_ptr_write' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_write.vhd:6' bound to instance 'COUNTER_PTR_WRITE' of component 'Inst_N_bits_ascending_counter_ptr_write' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'Inst_N_bits_ascending_counter_ptr_write' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_write.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Inst_N_bits_ascending_counter_ptr_write' (5#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Inst_N_bits_ascending_counter_ptr_write.vhd:14]
+INFO: [Synth 8-3491] module 'dual_port_distributed_ram_async_read' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/dual_port_distributed_ram_async_read.vhd:6' bound to instance 'MEMORIA' of component 'dual_port_distributed_ram_async_read' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'dual_port_distributed_ram_async_read' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/dual_port_distributed_ram_async_read.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'dual_port_distributed_ram_async_read' (6#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/dual_port_distributed_ram_async_read.vhd:15]
+INFO: [Synth 8-3491] module 'D_flip_flop_ce_pop' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_pop.vhd:4' bound to instance 'D_BIESTABLE_POP' of component 'D_flip_flop_ce_pop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'D_flip_flop_ce_pop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_pop.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'D_flip_flop_ce_pop' (7#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_pop.vhd:12]
+INFO: [Synth 8-3491] module 'D_flip_flop_ce_push' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_push.vhd:13' bound to instance 'D_BIESTABLE_PUSH' of component 'D_flip_flop_ce_push' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'D_flip_flop_ce_push' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_push.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'D_flip_flop_ce_push' (8#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/D_flip_flop_ce_push.vhd:21]
+INFO: [Synth 8-3491] module 'detector_flancos_push' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_push.vhd:10' bound to instance 'DF_PUSH' of component 'detector_flancos_push' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'detector_flancos_push' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_push.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'detector_flancos_push' (9#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_push.vhd:19]
+INFO: [Synth 8-3491] module 'detector_flancos_pop' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_pop.vhd:10' bound to instance 'DF_POP' of component 'detector_flancos_pop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'detector_flancos_pop' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_pop.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'detector_flancos_pop' (10#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/detector_flancos_pop.vhd:19]
+INFO: [Synth 8-3491] module 'Generador_CE_1KHz' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Generador_CE_1KHz.vhd:12' bound to instance 'GENERADOR' of component 'Generador_CE_1KHz' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'Generador_CE_1KHz' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Generador_CE_1KHz.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Generador_CE_1KHz' (11#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Generador_CE_1KHz.vhd:18]
+INFO: [Synth 8-3491] module 'bin_to_7seg_anodo' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Decodificador_binario_a_7_segmentos.vhd:8' bound to instance 'DECODIFICADOR' of component 'bin_to_7seg_anodo' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'bin_to_7seg_anodo' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Decodificador_binario_a_7_segmentos.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'bin_to_7seg_anodo' (12#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/Decodificador_binario_a_7_segmentos.vhd:22]
+INFO: [Synth 8-3491] module 'Control_visualizador_dinamico_8digitos_7seg' declared at 'C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/visualizador.vhd:13' bound to instance 'VISUALIZADOR' of component 'Control_visualizador_dinamico_8digitos_7seg' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'Control_visualizador_dinamico_8digitos_7seg' [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/visualizador.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Control_visualizador_dinamico_8digitos_7seg' (13#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/visualizador.vhd:61]
+WARNING: [Synth 8-3848] Net DIN_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:19]
+WARNING: [Synth 8-3848] Net sync_reset_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:21]
+WARNING: [Synth 8-3848] Net dp_in_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:22]
+WARNING: [Synth 8-3848] Net en_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:22]
+WARNING: [Synth 8-3848] Net vis0_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis1_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis2_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis3_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis4_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis5_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis6_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+WARNING: [Synth 8-3848] Net vis7_D_int in module/entity top_fifo_16_byte_disttributed_RAM does not have driver. [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'top_fifo_16_byte_disttributed_RAM' (14#1) [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:15]
+WARNING: [Synth 8-3331] design Generador_CE_1KHz has unconnected port reset
+WARNING: [Synth 8-3331] design Inst_N_bits_ascending_counter_ptr_write has unconnected port async_reset
+WARNING: [Synth 8-3331] design Inst_N_bits_ascending_counter_ptr_read has unconnected port asyncn_reset
+WARNING: [Synth 8-3331] design full_fifo_flip_flop has unconnected port preset
+WARNING: [Synth 8-3331] design empty_fifo_flip_flop has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 419.797 ; gain = 158.199
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin DF_PUSH:reset to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:182]
+WARNING: [Synth 8-3295] tying undriven pin DF_POP:reset to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:185]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:en to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:DIN[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:DIN[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:DIN[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:DIN[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin DECODIFICADOR:dp_in to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:191]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis0_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis1_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis2_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis3_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis4_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis5_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis6_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[7] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[6] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[5] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[4] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[3] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[2] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[1] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+WARNING: [Synth 8-3295] tying undriven pin VISUALIZADOR:vis7_D[0] to constant 0 [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sources_1/new/fifo_16_byte_distributted_RAM.vhd:194]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 419.797 ; gain = 158.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 419.797 ; gain = 158.199
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/constrs_1/new/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_fifo_16_byte_disttributed_RAM_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_fifo_16_byte_disttributed_RAM_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 762.984 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 763.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 763.020 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 763.020 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ce_1KHz" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module empty_fifo_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module full_fifo_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Inst_ctrl_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
+Module Inst_N_bits_ascending_counter_ptr_read 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Inst_N_bits_ascending_counter_ptr_write 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module D_flip_flop_ce_pop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module D_flip_flop_ce_push 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module detector_flancos_push 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module detector_flancos_pop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module Generador_CE_1KHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Control_visualizador_dinamico_8digitos_7seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "VISUALIZADOR/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "GENERADOR/ce_1KHz" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|bin_to_7seg_anodo | segmentos  | 32x7          | LUT            | 
++------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------------------------+-----------------+-----------+----------------------+--------------+
+|Module Name                       | RTL Object      | Inference | Size (Depth x Width) | Primitives   | 
++----------------------------------+-----------------+-----------+----------------------+--------------+
+|top_fifo_16_byte_disttributed_RAM | MEMORIA/RAM_reg | Implied   | 16 x 8               | RAM32M x 2   | 
++----------------------------------+-----------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 763.020 ; gain = 501.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 767.762 ; gain = 506.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------------------------+-----------------+-----------+----------------------+--------------+
+|Module Name                       | RTL Object      | Inference | Size (Depth x Width) | Primitives   | 
++----------------------------------+-----------------+-----------+----------------------+--------------+
+|top_fifo_16_byte_disttributed_RAM | MEMORIA/RAM_reg | Implied   | 16 x 8               | RAM32M x 2   | 
++----------------------------------+-----------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |LUT1   |     2|
+|3     |LUT2   |     4|
+|4     |LUT3   |     2|
+|5     |LUT4   |     2|
+|6     |LUT6   |     6|
+|7     |RAM32M |     2|
+|8     |FDCE   |     1|
+|9     |FDPE   |     1|
+|10    |FDRE   |     8|
+|11    |IBUF   |    12|
+|12    |OBUF   |    10|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------------------------------+------+
+|      |Instance            |Module                                  |Cells |
++------+--------------------+----------------------------------------+------+
+|1     |top                 |                                        |    51|
+|2     |  COUNTER_PTR_READ  |Inst_N_bits_ascending_counter_ptr_read  |    11|
+|3     |  COUNTER_PTR_WRITE |Inst_N_bits_ascending_counter_ptr_write |    11|
+|4     |  CTRL_FIFO         |Inst_ctrl_fifo                          |     4|
+|5     |    EMPTY_JK        |empty_fifo_flip_flop                    |     2|
+|6     |    FULL_JK         |full_fifo_flip_flop                     |     2|
+|7     |  MEMORIA           |dual_port_distributed_ram_async_read    |     2|
++------+--------------------+----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 777.320 ; gain = 515.723
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 777.320 ; gain = 172.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 777.320 ; gain = 515.723
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 781.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 91 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 781.977 ; gain = 533.344
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 781.977 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cferr/Desktop/Laboratorio CEP/P1/fifo_board_test/fifo_board_test.runs/synth_1/top_fifo_16_byte_disttributed_RAM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_fifo_16_byte_disttributed_RAM_utilization_synth.rpt -pb top_fifo_16_byte_disttributed_RAM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 15 16:45:36 2022...

@@ -1,0 +1,24 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 5a8ce083a0f54a2f95fc0b9af8f7096f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fifo_16_byte_distributed_RAM_TB_behav xil_defaultlib.fifo_16_byte_distributed_RAM_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.N_bits_ascending_counter [n_bits_ascending_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.inst_N_bits_ascending_counter_ptr_read [inst_n_bits_ascending_counter_pt...]
+Compiling architecture behavioral of entity xil_defaultlib.inst_N_bits_ascending_counter_ptr_write [inst_n_bits_ascending_counter_pt...]
+Compiling architecture behavioral of entity xil_defaultlib.JK_flipflop [jk_flipflop_default]
+Compiling architecture behavioral of entity xil_defaultlib.inst_ctrl_fifo [inst_ctrl_fifo_default]
+Compiling architecture behavioral of entity xil_defaultlib.inst_dual_port_distributed_ram_async_read [inst_dual_port_distributed_ram_a...]
+Compiling architecture behavioral of entity xil_defaultlib.fifo_16_byte_distributed_RAM [fifo_16_byte_distributed_ram_def...]
+Compiling architecture behavioral of entity xil_defaultlib.fifo_16_byte_distributed_ram_tb
+Built simulation snapshot fifo_16_byte_distributed_RAM_TB_behav

@@ -1,0 +1,6 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/cferr/Desktop/Laboratorio CEP/P1/fifo_board_test/fifo_board_test.sim/sim_1/impl/timing/xsim/top_fifo_16_byte_disttributed_RAM_TB_time_impl.v,1663250804,verilog,,,,Inst_N_bits_ascending_counter_ptr_read;Inst_N_bits_ascending_counter_ptr_write;Inst_ctrl_fifo;RAM32M_HD1;RAM32M_UNIQ_BASE_;dual_port_distributed_ram_async_read;empty_fifo_flip_flop;full_fifo_flip_flop;glbl;top_fifo_16_byte_disttributed_RAM,,,,,,,,
+C:/Users/cferr/Desktop/fifo_placa_def/fifo_placa_def.srcs/sim_1/new/testbench_fifo_16_byte_distributted_RAM.vhd,1663250404,vhdl,,,,top_fifo_16_byte_disttributed_ram_tb,,,,,,,,
